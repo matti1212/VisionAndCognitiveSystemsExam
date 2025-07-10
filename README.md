@@ -16,10 +16,10 @@ To run this code, make sure to clone this repository locally and download the us
 
 4. **df_fp_datasets_preparationForClassifier.ipynb**: Notebooks used to preprocess the *Fashion Product Images* and *DeepFashion* datasets for the classifier: here, data has been cleaned, items detected, features cleaned and merged. Final statistics and train - validation splitting are also included;
 
-5. [Classifier dataset](https://drive.google.com/file/d/1OldmzrcJGpiLtt9oM2yNXNh9PaoWNQSa/view?usp=sharing): link to the folder containing the prepared datasets used to train and validate the Classifier. The huge size of the folder don't let the upload here;
+5. [Classifier dataset](https://drive.google.com/file/d/1OldmzrcJGpiLtt9oM2yNXNh9PaoWNQSa/view?usp=sharing): link to the folder containing the prepared datasets used to train and validate the Classifier. The huge size of the folder don't let the upload here, make sure of downloading and unzipping its content in the main directory where the repository has been cloned;
 
 6. **Resnet101_selfsup_SimCLR.ipynb**: Training of the backbone for the classifier. The loss curve is saved in the folder *Resnet101_selfsup_SimCLR*, while the final weights for ResNet101 architecture can be found in *model_selfSup_resnet101_hidden512_nogreyAugment.pth*. A visualization of the similarity of item is also included;
 
 7. **Classifier_matcher.ipynb**: Notebook used to train the Classifier and to evaluate the matcher. Some images are displayed to show the retrieved matches using cosine similarity;
 
-8. **Classifier_weightsAndConfusionMatrices**: folder containing the fnal weights for the whole architecture and the confusion matrices computed on the validation set.
+8. [Classifier_weightsAndConfusionMatrices](https://drive.google.com/file/d/1A6RhYCJP1ouUB8tJjxOKFP9s80GKf3of/view?usp=sharing): folder containing the final weights for the whole architecture and the confusion matrices computed on the validation set. It has been loaded separately due to its size. 
