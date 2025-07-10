@@ -26,6 +26,7 @@ To run this code, make sure to clone this repository locally and download the us
 
 
 ## Some outcomes
-<img src="output_girl.png" alt="Classifier applied to a natural image from Pinteres" width="300"/>
-<img src="output_boy.png" alt="Classifier applied to a natural image from Pinteres" width="300"/>
-
+<p align="center">
+  <img src="output_girl.png" alt="Classifier applied to a natural image from Pinterest" style="width:49%; display:inline-block; margin:0; padding:0;" />
+  <img src="output_boy.png" alt="Classifier applied to a natural image from Pinterest" style="width:49%; display:inline-block; margin:0; padding:0;" />
+</p>
