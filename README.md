@@ -23,3 +23,9 @@ To run this code, make sure to clone this repository locally and download the us
 7. **Classifier_matcher.ipynb**: Notebook used to train the Classifier and to evaluate the matcher. Some images are displayed to show the retrieved matches using cosine similarity;
 
 8. [Classifier_weightsAndConfusionMatrices](https://drive.google.com/file/d/1A6RhYCJP1ouUB8tJjxOKFP9s80GKf3of/view?usp=sharing): folder containing the final weights for the whole architecture and the confusion matrices computed on the validation set. It has been loaded separately due to its size. 
+
+
+## Some outcomes
+<img src="output_girl.png" alt="Classifier applied to a natural image from Pinteres" width="300"/>
+<img src="output_boy.png" alt="Classifier applied to a natural image from Pinteres" width="300"/>
+
