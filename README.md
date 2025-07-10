@@ -10,9 +10,9 @@ To run this code, make sure to clone this repository locally and download the us
 
 1. **datasets_exploration.ipynb**: Notebook used to understand in first place how the various datasets are organized, which features they collect and what is their distribution. The first two sections are used to investigate the datasets *Apparel Dataset* and *Clothing Dataset*, both from Kaggle, but they have not been used in the project;
 
-2. **Shoes_dataset_annottaions**: Folder collecting the python script used to create the interface to easily manually annotatate the shoes dataset, and the resulted annotations in .json format.
+2. **Shoes_dataset_annotations**: Folder collecting the python script used to create the interface to easily manually annotatate the shoes dataset, and the resulted annotations in .json format.
 
-3. **YOLO_detector_capdataset.ipynb**, **YOLO_detector_df2.ipynb**, **YOLO_detector_shoesdataset.ipynb**: Notebooks used to install ultralytics and YOLO, and to train and validate the detectors on the referenced datasets (where df2 stands for *DeepFashion2 Dataset*. The results, including losses, metrics, examples and weights are collected in the folders **YOLO_detector_capdataset**, **YOLO_detector_df2**, **YOLO_detector_shoesdataset**;
+3. **YOLO_detector_capdataset.ipynb**, **YOLO_detector_df2.ipynb**, **YOLO_detector_shoesdataset.ipynb**: Notebooks used to install ultralytics and YOLO, and to train and validate the detectors on the referenced datasets (where df2 stands for *DeepFashion2 Dataset*. The results, including losses, metrics, examples and weights are collected in the folders **YOLO_detector_capdataset**, **YOLO_detector_df2**, **YOLO_detector_shoesdataset**. Pre-trained weights can be dowloaded from this [link](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11x.pt) or found in this repo as *yolo11x.pt*;
 
 4. **df_fp_datasets_preparationForClassifier.ipynb**: Notebooks used to preprocess the *Fashion Product Images* and *DeepFashion* datasets for the classifier: here, data has been cleaned, items detected, features cleaned and merged. Final statistics and train - validation splitting are also included;
 
